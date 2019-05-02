@@ -4,7 +4,7 @@
 <!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
  <img src="images/desktop.jpg" class="desktop" alt="" />
  <img src="images/phone.jpg" class="phone" alt="" />
- <p>Lorem Ipsum place holder text goes here for now</p>
+ <p>Here are some changes for the third commit.</p>
  <p>Lorem Ipsum place holder text goes here for now</p>
  <p>Lorem Ipsum place holder text goes here for now</p>
  <p>Lorem Ipsum place holder text goes here for now</p>
