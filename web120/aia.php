@@ -2,7 +2,7 @@
     include 'includes/header.php';
 ?>
 
-<h2 class="pageID"><?=$PageID?></h2>
+
 
 <table class="client">
     <tr>
@@ -68,9 +68,7 @@
     </tr>
 </table>
 </section>
-<aside>
-    <h2>AIA Resources</h2>
-</aside>
+
 <?php 
     include 'includes/footer.php';
 ?>

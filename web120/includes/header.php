@@ -23,7 +23,9 @@
   <h1><a href="index.php"><i class="logo fa <?=$logo?>"<?=$logo_color?>></i> Tristan SCC WEB120 Portal</a></h1>
   <nav>
     <ul class="topnav" id="myTopnav">
-    <?=$makeLinks($nav1)?>
+    <?php
+        echo makeLinks($nav1);
+    ?>
     <!--
       <li><a href="index.php" class="selected">Welcome</a></li>
       <li><a href="big/index.php">Big</a></li>
@@ -41,20 +43,4 @@
 <section>
  <h2 class="pageID"><?=$PageID?></h2>
 
-    <!-- JavaScript associated with the W3Schools.com Top Navigation Response Exercise --> 
-    <script>
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-    </script>
-</div>
-<!-- END WRAPPER -->
-
-</body>
-</html>
+    
