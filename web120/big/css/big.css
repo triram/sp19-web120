@@ -42,6 +42,13 @@ h1>a {
     font-size:1.25em;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 15px;
+}
+
 div.dot iframe {
     border: 0;
     overflow: hidden;
@@ -117,13 +124,15 @@ ul.topnav li a.selected {
 	}
 
     section {
-		width:65%;
+		width:60%;
 		float:left;
+        margin-left: 15px;
 	}
 	
      aside {	
 		width:34%;
 		float:right;
+        padding-right: 5px;
 	}
 			
 	
@@ -148,13 +157,15 @@ ul.topnav li a.selected {
 @media all and (min-width:737px) and (max-width:1399px) {
 	
 	section {
-		width:60%;
+		width:55%;
 		float:left;
+        margin-left: 15px;
 	}
 
     aside {	
 		width:39%;
 		float:right;
+        padding-right: 5px;
 	}
 	
     img.tablet {
@@ -175,6 +186,10 @@ ul.topnav li a.selected {
 
 /* PHONE */
 @media all and (max-width:736px) {
+    
+    section {
+        margin: 0 5px;
+    }
     
     /* Show Agenda View Calendar */
     div.embed-container.agenda-view {

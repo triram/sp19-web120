@@ -21,14 +21,14 @@
     <h3>Free-ish Calendars</h3>
     <!-- Provide 3 or more links to free-ish calendar resources that developers like yourself might consider. Examples you should look into: localendar.com, tockify.com, and time.ly -->
     <ol>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
+        <li><a href="https://www.lifewire.com/free-online-calendars-1357935" target="_blank">Lifewire - List of the Best Online Calendars</a></li>
+        <li><a href="https://www.techsoup.org/support/articles-and-how-tos/free-easy-ways-to-add-a-calendar" target="_blank">TechSoup - Free Ways to Add a Calendar to Your Website</a></li>
+        <li><a href="https://localendar.com/elsie" target="_blank">Localendar</a></li>
     </ol>
     
     <!-- Video example -->
     <h3>Upcoming Events</h3>
-    <h4>Northwest Folklife Festival (May 24 - May 27)</h4>
+    <h4>Northwest Folklife Festival &#40;May 24 - May 27&#41;</h4>
     <a href="https://www.nwfolklife.org/festival/" target="_blank">www.nwfolklife.org/festival/</a>
 </aside>
 <!-- END RIGHT COL -->
