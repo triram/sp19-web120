@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+html, body {
+    background-color:#ccc;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+div.wrapper {
+    background-color:#ffb631;
+    overflow:auto;
+}
+
+h1>a {
+    color: #17d4d4;
+    font-family: 'Courgette', cursive, serif;
+    text-decoration: none;
+}
+
+.logo {
+    color: #17d4d4;
+    margin-left:1%;
+    text-shadow:1px 1px #ccc;
+    font-size:1.25em;
+}
+
+h2 {
+    color: #fff;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 15px;
+}
+
+h3 {
+    color: #fff;
+}
+
+div.dot iframe {
+    border: 0;
+    overflow: hidden;
+}
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Hide Agenda View Calendar */
+div.embed-container.agenda-view {
+    display: none;
+}
+
+
+fullwidth {
+    width: 100%;
+}
+
+footer {
+	clear:both;
+    margin-left: 15px;
+}
+
+/* font awesome icon styles */
+i.logo {
+    color:darkred;
+    text-shadow:1px 1px #ccc;
+    font-size:1.25em;
+    margin-left:1%;
+}
+
+/* Change background color of navigation on selected page */
+ul.topnav li a.selected {
+    background-color: #ccc;
+    color:#000;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+.box {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.box-item {
+    background: #ffb631;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.box-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.box-item i {
+    color: #17d4d4;
+    font-size: 4em;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+.disclaimer {
+    margin: auto;
+    width: 75%;
+}
+
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+   div.wrapper {
+		width:80%;
+		margin:auto;
+	}
+
+    section {
+		width:60%;
+		float:left;
+        margin-left: 15px;
+	}
+	
+     aside {	
+		width:34%;
+		float:right;
+        padding-right: 5px;
+	}
+    
+    .center p {
+    color: #fff;
+    font-size: 4.5em;
+    }
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        		background-color: #ccc;
+        		color:#000;
+   	 }
+}
+
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+	
+	section {
+		width:55%;
+		float:left;
+        margin-left: 15px;
+	}
+
+    aside {	
+		width:39%;
+		float:right;
+        padding-right: 5px;
+	}
+    
+    .center p {
+    color: #fff;
+    font-size: 2.5em;
+    }
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #ccc;
+        color:#000;
+    }
+}
+
+
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    h1 {
+        font-size: 1em;
+        text-align: center;
+    }
+    
+    section {
+        margin: 0 5px;
+    }
+    
+    .center p {
+    color: #fff;
+    font-size: 1.2em;
+    }
+    
+    /* Show Agenda View Calendar */
+    div.embed-container.agenda-view {
+        display: block;
+    }
+    
+    /* Hide Month View Calendar */
+    div.embed-container.month-view {
+        display: none;
+    }
+}
